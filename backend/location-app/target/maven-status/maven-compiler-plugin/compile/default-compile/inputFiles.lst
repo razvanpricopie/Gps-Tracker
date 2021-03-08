@@ -1,0 +1,15 @@
+C:\Users\razvan.pricopie\Desktop\project_scd\location-app\src\main\java\org\scd\config\exception\ExceptionConfig.java
+C:\Users\razvan.pricopie\Desktop\project_scd\location-app\src\main\java\org\scd\service\UserService.java
+C:\Users\razvan.pricopie\Desktop\project_scd\location-app\src\main\java\org\scd\model\security\CustomUserDetails.java
+C:\Users\razvan.pricopie\Desktop\project_scd\location-app\src\main\java\org\scd\service\security\CustomUserDetailsServiceImpl.java
+C:\Users\razvan.pricopie\Desktop\project_scd\location-app\src\main\java\org\scd\model\dto\UserLoginDTO.java
+C:\Users\razvan.pricopie\Desktop\project_scd\location-app\src\main\java\org\scd\model\User.java
+C:\Users\razvan.pricopie\Desktop\project_scd\location-app\src\main\java\org\scd\repository\UserRepository.java
+C:\Users\razvan.pricopie\Desktop\project_scd\location-app\src\main\java\org\scd\App.java
+C:\Users\razvan.pricopie\Desktop\project_scd\location-app\src\main\java\org\scd\config\exception\BusinessException.java
+C:\Users\razvan.pricopie\Desktop\project_scd\location-app\src\main\java\org\scd\config\AppConfig.java
+C:\Users\razvan.pricopie\Desktop\project_scd\location-app\src\main\java\org\scd\model\security\Role.java
+C:\Users\razvan.pricopie\Desktop\project_scd\location-app\src\main\java\org\scd\repository\RoleRepository.java
+C:\Users\razvan.pricopie\Desktop\project_scd\location-app\src\main\java\org\scd\service\UserServiceImpl.java
+C:\Users\razvan.pricopie\Desktop\project_scd\location-app\src\main\java\org\scd\config\SecurityConfig.java
+C:\Users\razvan.pricopie\Desktop\project_scd\location-app\src\main\java\org\scd\controller\UserController.java

@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="1708.21875" y="0.0">org.scd.model.security.Role</node>
+    <node x="730.0" y="515.0">org.scd.model.dto.UserLocationDTO</node>
+    <node x="324.16558333333364" y="1276.0">org.scd.controller.UserLocationController</node>
+    <node x="1307.6032916666663" y="1071.0">org.scd.service.security.CustomUserDetailsServiceImpl</node>
+    <node x="535.5" y="783.0">org.scd.service.UserLocationService</node>
+    <node x="1841.5477083333335" y="827.5">org.scd.repository.RoleRepository</node>
+    <node x="990.1032916666665" y="816.0">org.scd.config.exception.BusinessException</node>
+    <node x="1629.6032916666663" y="1026.5">org.scd.service.UserServiceImpl</node>
+    <node x="924.6032916666665" y="1094.0">org.scd.config.exception.ExceptionConfig</node>
+    <node x="0.0" y="1532.0">org.scd.config.SecurityConfig</node>
+    <node x="2453.93225" y="805.0">org.scd.service.UserService</node>
+    <node x="2391.43225" y="504.0">org.scd.model.dto.UserRegisterDTO</node>
+    <node x="215.5" y="805.5">org.scd.repository.UserLocationRepository</node>
+    <node x="236.5" y="493.0">org.scd.model.UserLocation</node>
+    <node x="1583.96875" y="149.0">org.scd.model.User</node>
+    <node x="2438.2560416666665" y="1037.5">org.scd.controller.UserController</node>
+    <node x="1580.6405833333333" y="1332.5">org.scd.config.AppConfig</node>
+    <node x="10.5" y="805.5">org.scd.model.dto.FilterLocationDTO</node>
+    <node x="437.91558333333364" y="1016.0">org.scd.service.UserLocationServiceImpl</node>
+    <node x="1261.5616249999998" y="816.5">org.scd.repository.UserRepository</node>
+    <node x="2166.43225" y="526.0">org.scd.model.dto.UserLoginDTO</node>
+    <node x="1839.4322499999998" y="460.0">org.scd.model.security.CustomUserDetails</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.scd.service.UserService" target="org.scd.model.dto.UserRegisterDTO">
+      <point x="0.0" y="-49.5" />
+      <point x="2561.43225" y="763.0" />
+      <point x="2555.93225" y="763.0" />
+      <point x="0.0" y="82.5" />
+    </edge>
+    <edge source="org.scd.service.UserLocationServiceImpl" target="org.scd.service.UserLocationService">
+      <point x="22.6875" y="-105.0" />
+      <point x="642.1030833333336" y="966.0" />
+      <point x="692.0" y="966.0" />
+      <point x="0.0" y="71.5" />
+    </edge>
+    <edge source="org.scd.service.UserServiceImpl" target="org.scd.model.dto.UserLoginDTO">
+      <point x="22.25" y="-94.5" />
+      <point x="1874.3532916666663" y="986.0" />
+      <point x="1819.71875" y="986.0" />
+      <point x="1819.71875" y="753.0" />
+      <point x="2200.5989166666664" y="753.0" />
+      <point x="-68.33333333333348" y="60.5" />
+    </edge>
+    <edge source="org.scd.service.UserLocationServiceImpl" target="org.scd.config.exception.BusinessException">
+      <point x="113.4375" y="-105.0" />
+      <point x="732.8530833333336" y="986.0" />
+      <point x="1028.6032916666663" y="986.0" />
+      <point x="-77.0" y="38.5" />
+    </edge>
+    <edge source="org.scd.service.security.CustomUserDetailsServiceImpl" target="org.scd.repository.UserRepository">
+      <point x="-113.25" y="-50.0" />
+      <point x="1345.3532916666663" y="996.0" />
+      <point x="1336.144958333333" y="996.0" />
+      <point x="-14.916666666666742" y="38.0" />
+    </edge>
+    <edge source="org.scd.repository.UserLocationRepository" target="org.scd.model.UserLocation">
+      <point x="0.0" y="-49.0" />
+      <point x="0.0" y="93.5" />
+    </edge>
+    <edge source="org.scd.controller.UserLocationController" target="org.scd.model.dto.UserLocationDTO">
+      <point x="163.60000000000002" y="-105.5" />
+      <point x="692.2655833333337" y="1256.0" />
+      <point x="914.1032916666665" y="1256.0" />
+      <point x="914.1032916666665" y="763.0" />
+      <point x="945.0" y="763.0" />
+      <point x="86.0" y="71.5" />
+    </edge>
+    <edge source="org.scd.controller.UserLocationController" target="org.scd.model.dto.FilterLocationDTO">
+      <point x="-81.80000000000018" y="-105.5" />
+      <point x="446.86558333333346" y="1246.0" />
+      <point x="56.5" y="1246.0" />
+      <point x="-46.0" y="49.0" />
+    </edge>
+    <edge source="org.scd.service.UserServiceImpl" target="org.scd.config.exception.BusinessException">
+      <point x="-200.25" y="-94.5" />
+      <point x="1651.8532916666663" y="986.0" />
+      <point x="1182.6032916666663" y="986.0" />
+      <point x="77.0" y="38.5" />
+    </edge>
+    <edge source="org.scd.model.security.CustomUserDetails" target="org.scd.model.User">
+      <point x="-76.5" y="-126.5" />
+      <point x="1915.9322499999998" y="430.0" />
+      <point x="1730.21875" y="430.0" />
+      <point x="33.75" y="115.5" />
+    </edge>
+    <edge source="org.scd.service.UserService" target="org.scd.model.dto.UserLoginDTO">
+      <point x="-71.66666666666652" y="-49.5" />
+      <point x="2489.765583333334" y="753.0" />
+      <point x="2337.2655833333333" y="753.0" />
+      <point x="68.33333333333348" y="60.5" />
+    </edge>
+    <edge source="org.scd.config.exception.ExceptionConfig" target="org.scd.config.exception.BusinessException">
+      <point x="0.0" y="-27.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="org.scd.service.UserLocationServiceImpl" target="org.scd.repository.UserLocationRepository">
+      <point x="-68.0625" y="-105.0" />
+      <point x="551.3530833333336" y="976.0" />
+      <point x="365.0" y="976.0" />
+      <point x="0.0" y="49.0" />
+    </edge>
+    <edge source="org.scd.model.User" target="org.scd.model.security.Role">
+      <point x="-56.25" y="-115.5" />
+      <point x="1640.21875" y="124.0" />
+      <point x="1723.0520833333333" y="124.0" />
+      <point x="-29.666666666666742" y="49.5" />
+    </edge>
+    <edge source="org.scd.service.UserServiceImpl" target="org.scd.repository.UserRepository">
+      <point x="-155.75" y="-94.5" />
+      <point x="1696.3532916666663" y="976.0" />
+      <point x="1395.8116249999998" y="976.0" />
+      <point x="44.75" y="38.0" />
+    </edge>
+    <edge source="org.scd.service.UserServiceImpl" target="org.scd.repository.RoleRepository">
+      <point x="66.75" y="-94.5" />
+      <point x="1918.8532916666663" y="976.0" />
+      <point x="1875.8810416666668" y="976.0" />
+      <point x="-68.66666666666674" y="27.0" />
+    </edge>
+    <edge source="org.scd.service.UserLocationService" target="org.scd.model.dto.UserLocationDTO">
+      <point x="78.25" y="-71.5" />
+      <point x="770.25" y="763.0" />
+      <point x="773.0" y="763.0" />
+      <point x="-86.0" y="71.5" />
+    </edge>
+    <edge source="org.scd.service.UserLocationServiceImpl" target="org.scd.model.dto.UserLocationDTO">
+      <point x="68.0625" y="-105.0" />
+      <point x="687.4780833333336" y="976.0" />
+      <point x="859.0" y="976.0" />
+      <point x="0.0" y="71.5" />
+    </edge>
+    <edge source="org.scd.service.security.CustomUserDetailsServiceImpl" target="org.scd.model.security.CustomUserDetails">
+      <point x="113.25" y="-50.0" />
+      <point x="1571.8532916666663" y="996.0" />
+      <point x="1693.506041666667" y="996.0" />
+      <point x="1693.506041666667" y="743.0" />
+      <point x="1915.9322499999998" y="743.0" />
+      <point x="-76.5" y="126.5" />
+    </edge>
+    <edge source="org.scd.controller.UserController" target="org.scd.model.User">
+      <point x="139.16666666666652" y="-83.5" />
+      <point x="2744.4227083333335" y="996.0" />
+      <point x="2760.110375" y="996.0" />
+      <point x="2760.110375" y="400.0" />
+      <point x="1797.71875" y="400.0" />
+      <point x="101.25" y="115.5" />
+    </edge>
+    <edge source="org.scd.model.UserLocation" target="org.scd.model.User">
+      <point x="-64.25" y="-93.5" />
+      <point x="300.75" y="410.0" />
+      <point x="1595.21875" y="410.0" />
+      <point x="-101.25" y="115.5" />
+    </edge>
+    <edge source="org.scd.service.UserServiceImpl" target="org.scd.service.UserService">
+      <point x="200.25" y="-94.5" />
+      <point x="2052.3532916666663" y="986.0" />
+      <point x="2480.80725" y="986.0" />
+      <point x="-80.625" y="49.5" />
+    </edge>
+    <edge source="org.scd.service.UserServiceImpl" target="org.scd.model.User">
+      <point x="-66.75" y="-94.5" />
+      <point x="1785.3532916666663" y="956.0" />
+      <point x="1682.506041666667" y="956.0" />
+      <point x="1682.506041666667" y="440.0" />
+      <point x="1685.21875" y="440.0" />
+      <point x="-11.25" y="115.5" />
+    </edge>
+    <edge source="org.scd.config.AppConfig" target="org.scd.service.UserService">
+      <point x="192.4000000000001" y="-49.0" />
+      <point x="2013.5405833333334" y="1256.0" />
+      <point x="2427.7560416666665" y="1256.0" />
+      <point x="2427.7560416666665" y="996.0" />
+      <point x="2534.55725" y="996.0" />
+      <point x="-26.875" y="49.5" />
+    </edge>
+    <edge source="org.scd.service.UserLocationServiceImpl" target="org.scd.repository.UserRepository">
+      <point x="158.8125" y="-105.0" />
+      <point x="778.2280833333336" y="996.0" />
+      <point x="1276.4782916666666" y="996.0" />
+      <point x="-74.58333333333326" y="38.0" />
+    </edge>
+    <edge source="org.scd.controller.UserController" target="org.scd.service.UserService">
+      <point x="-27.833333333333485" y="-83.5" />
+      <point x="2577.4227083333335" y="996.0" />
+      <point x="2588.30725" y="996.0" />
+      <point x="26.875" y="49.5" />
+    </edge>
+    <edge source="org.scd.repository.UserRepository" target="org.scd.model.User">
+      <point x="0.0" y="-38.0" />
+      <point x="1351.0616249999998" y="430.0" />
+      <point x="1640.21875" y="430.0" />
+      <point x="-56.25" y="115.5" />
+    </edge>
+    <edge source="org.scd.service.UserLocationService" target="org.scd.model.UserLocation">
+      <point x="-78.25" y="-71.5" />
+      <point x="613.75" y="753.0" />
+      <point x="467.79999999999995" y="753.0" />
+      <point x="102.79999999999995" y="93.5" />
+    </edge>
+    <edge source="org.scd.controller.UserController" target="org.scd.model.dto.UserRegisterDTO">
+      <point x="83.5" y="-83.5" />
+      <point x="2688.7560416666665" y="996.0" />
+      <point x="2716.811625" y="996.0" />
+      <point x="2716.811625" y="753.0" />
+      <point x="2665.598916666667" y="753.0" />
+      <point x="109.66666666666652" y="82.5" />
+    </edge>
+    <edge source="org.scd.service.UserLocationServiceImpl" target="org.scd.model.UserLocation">
+      <point x="-113.4375" y="-105.0" />
+      <point x="505.97808333333364" y="986.0" />
+      <point x="205.0" y="986.0" />
+      <point x="205.0" y="763.0" />
+      <point x="313.60000000000014" y="763.0" />
+      <point x="-51.399999999999864" y="93.5" />
+    </edge>
+    <edge source="org.scd.service.UserServiceImpl" target="org.scd.model.dto.UserRegisterDTO">
+      <point x="155.75" y="-94.5" />
+      <point x="2007.8532916666663" y="976.0" />
+      <point x="2187.6447916666666" y="976.0" />
+      <point x="2187.6447916666666" y="763.0" />
+      <point x="2446.265583333334" y="763.0" />
+      <point x="-109.66666666666652" y="82.5" />
+    </edge>
+    <edge source="org.scd.controller.UserLocationController" target="org.scd.service.UserLocationServiceImpl">
+      <point x="0.0" y="-105.5" />
+      <point x="-90.75" y="105.0" />
+    </edge>
+    <edge source="org.scd.service.UserLocationServiceImpl" target="org.scd.model.dto.FilterLocationDTO">
+      <point x="-158.8125" y="-105.0" />
+      <point x="460.60308333333364" y="996.0" />
+      <point x="148.5" y="996.0" />
+      <point x="46.0" y="49.0" />
+    </edge>
+    <edge source="org.scd.config.AppConfig" target="org.scd.service.UserServiceImpl">
+      <point x="0.0" y="-49.0" />
+      <point x="1821.1405833333333" y="1256.0" />
+      <point x="1852.1032916666663" y="1256.0" />
+      <point x="0.0" y="94.5" />
+    </edge>
+    <edge source="org.scd.controller.UserLocationController" target="org.scd.model.UserLocation">
+      <point x="-163.60000000000014" y="-105.5" />
+      <point x="365.0655833333335" y="1256.0" />
+      <point x="0.0" y="1256.0" />
+      <point x="0.0" y="753.0" />
+      <point x="262.20000000000005" y="753.0" />
+      <point x="-102.79999999999995" y="93.5" />
+    </edge>
+    <edge source="org.scd.repository.RoleRepository" target="org.scd.model.security.Role">
+      <point x="0.0" y="-27.0" />
+      <point x="1944.5477083333335" y="743.0" />
+      <point x="2155.93225" y="743.0" />
+      <point x="2155.93225" y="124.0" />
+      <point x="1782.3854166666667" y="124.0" />
+      <point x="29.666666666666742" y="49.5" />
+    </edge>
+    <edge source="org.scd.controller.UserController" target="org.scd.model.security.CustomUserDetails">
+      <point x="-139.16666666666652" y="-83.5" />
+      <point x="2466.0893750000005" y="956.0" />
+      <point x="2091.2604166666665" y="956.0" />
+      <point x="2091.2604166666665" y="733.0" />
+      <point x="2068.93225" y="733.0" />
+      <point x="76.5" y="126.5" />
+    </edge>
+    <edge source="org.scd.config.AppConfig" target="org.scd.service.security.CustomUserDetailsServiceImpl">
+      <point x="-96.19999999999982" y="-49.0" />
+      <point x="1724.9405833333335" y="1246.0" />
+      <point x="1458.6032916666663" y="1246.0" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="org.scd.controller.UserController" target="org.scd.model.dto.UserLoginDTO">
+      <point x="-83.5" y="-83.5" />
+      <point x="2521.7560416666665" y="946.0" />
+      <point x="2287.6447916666666" y="946.0" />
+      <point x="2287.6447916666666" y="753.0" />
+      <point x="2268.93225" y="753.0" />
+      <point x="0.0" y="60.5" />
+    </edge>
+    <edge source="org.scd.service.UserService" target="org.scd.model.User">
+      <point x="71.66666666666652" y="-49.5" />
+      <point x="2633.098916666667" y="763.0" />
+      <point x="2730.93225" y="763.0" />
+      <point x="2730.93225" y="410.0" />
+      <point x="1775.21875" y="410.0" />
+      <point x="78.75" y="115.5" />
+    </edge>
+    <edge source="org.scd.config.AppConfig" target="org.scd.repository.RoleRepository">
+      <point x="96.20000000000005" y="-49.0" />
+      <point x="1917.3405833333334" y="1246.0" />
+      <point x="2234.3949583333333" y="1246.0" />
+      <point x="2234.3949583333333" y="966.0" />
+      <point x="2013.2143750000002" y="966.0" />
+      <point x="68.66666666666674" y="27.0" />
+    </edge>
+    <edge source="org.scd.service.security.CustomUserDetailsServiceImpl" target="org.scd.model.User">
+      <point x="37.75" y="-50.0" />
+      <point x="1496.3532916666663" y="996.0" />
+      <point x="1478.3116249999998" y="996.0" />
+      <point x="1478.3116249999998" y="440.0" />
+      <point x="1662.71875" y="440.0" />
+      <point x="-33.75" y="115.5" />
+    </edge>
+    <edge source="org.scd.config.AppConfig" target="org.scd.repository.UserRepository">
+      <point x="-192.39999999999986" y="-49.0" />
+      <point x="1628.7405833333335" y="1256.0" />
+      <point x="1297.1032916666663" y="1256.0" />
+      <point x="1297.1032916666663" y="996.0" />
+      <point x="1306.3116249999998" y="996.0" />
+      <point x="-44.75" y="38.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.5000000000000001" x="1593.1666666666667" y="899.3333333333333" />
+  <SelectedNodes>
+    <node>org.scd.service.UserLocationServiceImpl</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
